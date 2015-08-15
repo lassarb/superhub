@@ -1,0 +1,5 @@
+AddType .html application/x-httpd-php5 .php .htm .html
+
+php_flag display_errors 1
+php_flag  log_errors on
+php_value error_log  /home/larac/sites/super/logs/PHP_errors.log
